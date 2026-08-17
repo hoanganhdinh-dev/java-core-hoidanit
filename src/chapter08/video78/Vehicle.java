@@ -1,0 +1,22 @@
+package chapter08.video78;
+
+public class Vehicle {
+
+	private String brand;
+
+	public Vehicle(String brand) {
+		this.brand = brand;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void getBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public void start() {
+		System.out.println("Vehicle is starting...");
+	}
+}
